@@ -1,0 +1,183 @@
+body{
+    font-family: 'dosis', sans-serif;
+    padding: none;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    animation-duration: 0.5s;
+    animation: ease-in;
+}
+
+.site{
+    display: flex;
+    justify-content: left;
+}
+  
+#column_main {
+    width: 100%;
+    background-image: url('img/BG_Dash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar */
+
+.left {
+    position: sticky;
+    top: 0;
+    width: auto;
+    background-color: #2E2F33;
+    color: white;
+    height: 100vh;
+}
+
+#topnavbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+#bottonnavbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.tablebutton {
+    font-family: 'dosis', sans-serif;
+    background-color: #2E2F33;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: none;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+#addtable{
+
+    font-family: 'dosis', sans-serif;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: #2DBAFF;
+    margin: none;
+    cursor: pointer;
+    padding: 1.5rem;
+
+}
+
+/* Dashboard */
+
+.dashboard{
+    padding: 4%;
+    display: block;
+}
+
+.dashboard .cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.dashboard .card{
+    border: 2px solid #2DBAFF;
+    color: white;
+    width: 21.16%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.dashboard .CAmount{
+    font-size: 3rem;
+    margin: 0%;
+}
+
+.dashboard .CUnit{
+    font-size: 0.75rem;
+    margin: 0%;
+}
+
+.dashboard .CState{
+    font-size: 1.25rem;
+    margin: 0%;
+}
+
+.dashboard .infoset{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard .data{
+    display: flex;
+    justify-content: center;
+    width: 46%;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.dashboard .chart{
+    padding: none;
+}
+
+.dashboard .footer{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* Data Sections */
+
+.datasecs{
+    padding: 4%;
+    display: none;
+}
+
+.navbuts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbuts button{
+    font-family: 'dosis', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    text-decoration: none;
+    margin: none;
+    cursor: pointer;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.datatable {
+    padding-top: 1rem;
+    border-collapse: collapse;
+}
+
+.datatable td, .datatable th {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100vw;
+    table-layout: auto;
+}
+
+.datatable td:hover {background-color: #ddd;}
+
+.datatable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2DBAFF;
+    color: white;
+}
+
+table {
+    table-layout: auto;
+}
